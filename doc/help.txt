@@ -1,0 +1,11 @@
+Usage: app <args>
+
+  App - CLI.js Boilerplate
+
+Example:
+  $ app foobar
+
+Options:
+  -v   --version         Display current software version
+  -h   --help            Display software help and usage details
+  -n   --no-color        Display output whitout colors

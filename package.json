@@ -1,0 +1,40 @@
+{
+  "name": "clijs-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate to CLI written in JavaScript",
+  "keywords": [
+    "cli",
+    "terminal",
+    "boilerplate",
+    "javascript"
+  ],
+  "author": {
+    "name": "Luiz Fernando Rodrigues",
+    "email": "fernahh@gmail.com",
+    "url": "http://fernahh.com.br"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "bin": {
+    "app": "./bin/app"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "minimist": "^1.2.0",
+    "supports-color": "^3.1.2"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "xo": "^0.15.1"
+  },
+  "xo": {
+    "esnext": true,
+    "space": 2,
+    "semicolon": false,
+    "rules": {
+      "xo/no-process-exit": 0
+    }
+  }
+}
