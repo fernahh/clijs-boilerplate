@@ -1,15 +1,23 @@
 # CLI.js Boilerplate
 
-> A boilerplate to build CLIs with JavaScript.
+> A boilerplate to build CLIs with JavaScript. No transpilers, just JavaScript.
+
+## Why?
+
+CLIs are cool and useful. JavaScript is awesome and the [most popular programming language of world](http://stackoverflow.com/research/developer-survey-2016#technology). But, how to develop scalable and testable tools? What are the standards to be followed?
+
+This project is a result of studies, based on experiencies and the [Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
 
 ## Getting started
 
-You can get in two ways:
+Choose a option:
 
 1. [Clone the repo](https://github.com/fernahh/clijs-boilerplate.git) or...
-2. Download last release as a [zip file](https://github.com/fernahh/clijs-boilerplate/archive/master.zip).
+2. Download last [release](https://github.com/fernahh/clijs-boilerplate/archive/master.zip).
 
 ## Structure
+
+The structure is simple:
 
 ```
 ├── bin/
@@ -17,9 +25,9 @@ You can get in two ways:
 ├── doc/
 │   └── help.txt
 ├── src/
-|   ├── helpers
+|   ├── helpers/
 |   |   └── log-error.js
-|   ├── modules
+|   ├── modules/
 |   |   └── help.js
 │   └── app.js
 ├── test/
@@ -33,15 +41,15 @@ You can get in two ways:
 
 ### [bin/](https://github.com/fernahh/clijs-boilerplate/tree/master/bin/)
 
-//todo
+The Node.js packages are based on [CommonJS Packages/1.1](http://wiki.commonjs.org/wiki/Packages/1.1), and this specification says that executable files must be in the directory `/bin`.
 
 ### [doc/](https://github.com/fernahh/clijs-boilerplate/tree/master/doc/)
 
-//todo
+Keep the documentation in external files leaves more flexible, especially if it's large.
 
 ### [src/](https://github.com/fernahh/clijs-boilerplate/tree/master/src/)
 
-//todo
+The main modules, helpers a application file are here.
 
 ### [test/](https://github.com/fernahh/clijs-boilerplate/tree/master/test/)
 
@@ -52,17 +60,6 @@ You can get in two ways:
 //todo
 
 ### [cli.js](https://github.com/fernahh/clijs-boilerplate/tree/master/cli.js)
-
-//todo
-
-
-## Features
-
-### Testable
-
-//todo
-
-### Based on [Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)
 
 //todo
 
