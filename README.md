@@ -1,5 +1,9 @@
 # CLI.js Boilerplate
 
+<a href="https://github.com/fernahh/clijs-boilerplate"><img
+  src="http://i.imgur.com/OCjyXVQ.png?" alt="CLI.js Boilerplate Logo"
+  width="116" height="84" align="right"></a>
+
 > A boilerplate to build CLIs with JavaScript. No transpilers, just JavaScript.
 
 ## Why?
@@ -53,15 +57,11 @@ The main modules, helpers a application file are here.
 
 ### [test/](https://github.com/fernahh/clijs-boilerplate/tree/master/test/)
 
-//todo
-
-### [.editorconfig](https://github.com/fernahh/clijs-boilerplate/tree/master/.editorconfig)
-
-//todo
+The test structure is based on [ava](https://github.com/avajs/ava), a futuristic JavaScript test runner. Alternatively, you can use another, the changes in this project are simple.
 
 ### [cli.js](https://github.com/fernahh/clijs-boilerplate/tree/master/cli.js)
 
-//todo
+This is the main file of your application. It receives user input and the delegate to the necessary modules.
 
 ## Maintainer
 
